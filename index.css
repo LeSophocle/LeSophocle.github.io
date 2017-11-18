@@ -1,0 +1,32 @@
+body {
+	background-image:url(SpaceBack.jpg);
+	background-attachment: fixed;
+}
+
+#box {
+	width: 700px;
+	height: 1000px;
+	position: relative;
+	left: 30px;
+	background-color: rgba(9, 4, 106, 0.3);
+	top: 20px;
+}
+
+#header {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.5); 
+	width: 650px;
+	height: 100px;
+	left: 25px;
+	top: 25px;
+}
+
+#title {
+	position: absolute;
+	z-index: 999;
+	top: -23px;
+	left: 287px;
+	font-size:60px;
+	color: white;
+	font-family: garamond;
+}
