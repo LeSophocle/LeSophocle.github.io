@@ -1,102 +1,34 @@
 body {
-	background-image:url(SpaceBack.jpg);
-	background-attachment: fixed;
+	background-image: url(2.jpg);
+	background-repeat: repeat;
 }
-
-#box {
-	width: 700px;
-	height: 1200px;
-	position: relative;
-	left: 30px;
-	background-color: rgba(9, 4, 106, 0.3);
-	top: 20px;
-}
-
-#header {
+#DADAM {
+	width:1000px;
+	height:100px;
+	background-color: pink;
 	position: absolute;
-	background-color: rgba(255, 255, 255, 0.5); 
-	width: 650px;
-	height: 100px;
-	left: 25px;
-	top: 25px;
+	left: 475px;
+	border: 1px solid black;
 }
 
-#title {
+#ADAM {
 	position: absolute;
-	z-index: 999;
-	top: -23px;
-	left: 287px;
-	font-size:60px;
-	color: white;
-	font-family: garamond;
+	font-size: 50px;
+	left:900px;
+	top:-25px;
 }
 
-#left {
-	width: 350px;
-	height: 960px;
-	background-color: rgba(255, 255, 255, 0.5);
+#BEnfant {
 	position:absolute;
-	left: 25px;
-	top:150px;
-	padding: 10px;
-	color: white;
-	text-align: center;
+	width:300px;
+	height:500px;
+	background-color:pink;
+	left:800px;
+	top:300px;
+	border: 1px solid black;
 }
 
-#right {
-	width: 250px;
-	height: 980px;
-	background-color: rgba(255, 255, 255, 0.5);
-	position:absolute;
-	right:25px;
-	top:150px;
+#img {
+	margin-left:15px;
+	margin-top:10px;
 }
-
-#footer {
-	position: absolute;
-	width: 650px;
-	left: 25px;
-	bottom: 20px;
-	height: 30px;
-	background-color: rgba(255, 255, 255, 0.5);
-}
-
-#Source {
-	color:white;
-	padding:10px;
-	margin-top: -3px;
-	margin-left: 5px;
-}
-
-#Wiki:visited {
-	color: white;
-}
-
-#Wiki:active {
-	font-size:15.5px;
-}
-
-#Graph {
-	position:absolute;
-	width: 180px;
-	margin-top:30px;
-	margin-left: 35px;
-	border: 3px solid black;
-}
-
-#Isaac {
-	position:absolute;
-	width: 180px;
-	margin-top:300px;
-	margin-left: 35px;
-	border: 3px solid black;
-}
-
-#Albert {
-	position:absolute;
-	width: 180px;
-	margin-top:640px;
-	margin-left: 35px;
-	border: 3px solid black;
-}
-
