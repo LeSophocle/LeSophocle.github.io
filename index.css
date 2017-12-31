@@ -1,102 +1,26 @@
 body {
-	background-image:url(SpaceBack.jpg);
-	background-attachment: fixed;
+	background-image:url(Moon.png);
+	background-repeat:no-repeat;
+	background-size: 1920px 1080px;
 }
 
-#box {
-	width: 700px;
-	height: 1200px;
-	position: relative;
-	left: 30px;
-	background-color: rgba(9, 4, 106, 0.3);
-	top: 20px;
+#Container {
+	background-color:rgba(0,0,0,0.95);
+	position:fixed;
+	left:0px;
+	top:0px;
+	height:1080px;
+	width:1920px;
 }
 
-#header {
-	position: absolute;
-	background-color: rgba(255, 255, 255, 0.5); 
-	width: 650px;
-	height: 100px;
-	left: 25px;
-	top: 25px;
+#Container:active {
+	display:none;
 }
 
-#title {
-	position: absolute;
-	z-index: 999;
-	top: -23px;
-	left: 287px;
-	font-size:60px;
-	color: white;
-	font-family: garamond;
+h1 {
+	color:rgb(20,20,20);
+	font-size:90px;
+	float:right;
+	margin-right:300px;
+	margin-top:200px;
 }
-
-#left {
-	width: 350px;
-	height: 960px;
-	background-color: rgba(255, 255, 255, 0.5);
-	position:absolute;
-	left: 25px;
-	top:150px;
-	padding: 10px;
-	color: white;
-	text-align: center;
-}
-
-#right {
-	width: 250px;
-	height: 980px;
-	background-color: rgba(255, 255, 255, 0.5);
-	position:absolute;
-	right:25px;
-	top:150px;
-}
-
-#footer {
-	position: absolute;
-	width: 650px;
-	left: 25px;
-	bottom: 20px;
-	height: 30px;
-	background-color: rgba(255, 255, 255, 0.5);
-}
-
-#Source {
-	color:white;
-	padding:10px;
-	margin-top: -3px;
-	margin-left: 5px;
-}
-
-#Wiki:visited {
-	color: white;
-}
-
-#Wiki:active {
-	font-size:15.5px;
-}
-
-#Graph {
-	position:absolute;
-	width: 180px;
-	margin-top:30px;
-	margin-left: 35px;
-	border: 3px solid black;
-}
-
-#Isaac {
-	position:absolute;
-	width: 180px;
-	margin-top:300px;
-	margin-left: 35px;
-	border: 3px solid black;
-}
-
-#Albert {
-	position:absolute;
-	width: 180px;
-	margin-top:640px;
-	margin-left: 35px;
-	border: 3px solid black;
-}
-
