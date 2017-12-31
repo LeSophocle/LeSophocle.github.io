@@ -1,0 +1,26 @@
+body {
+	background-image:url(Moon.png);
+	background-repeat:no-repeat;
+	background-size: 1920px 1080px;
+}
+
+#Container {
+	background-color:rgba(0,0,0,0.95);
+	position:fixed;
+	left:0px;
+	top:0px;
+	height:1080px;
+	width:1920px;
+}
+
+#Container:active {
+	display:none;
+}
+
+h1 {
+	color:rgb(20,20,20);
+	font-size:90px;
+	float:right;
+	margin-right:300px;
+	margin-top:200px;
+}
